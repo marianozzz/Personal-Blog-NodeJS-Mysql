@@ -46,7 +46,7 @@ router.post('/addpost', async(req, res) => {
 router.get('/postslist', async(req, res) => {
     const postslist = await pool.query('select * from posts');
     console.log(postslist);
-    res.render('postslist');
+    res.render('postslist',{postslist: postslist});
 })
 
 

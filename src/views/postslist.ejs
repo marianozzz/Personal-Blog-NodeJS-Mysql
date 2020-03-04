@@ -3,17 +3,21 @@
     <thead>
         <tr>
             <th scope="col">Type</th>
-            <th scope="col">Column heading</th>
-            <th scope="col">Column heading</th>
-            <th scope="col">Column heading</th>
+            <th scope="col">ID USER</th>
+            <th scope="col">POST</th>
+            <th scope="col">CREATE AT</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th scope="row">Default</th>
-            <td>Column content</td>
-            <td>Column content</td>
-            <td>Column content</td>
+            <% postslist.forEach(function(postslist) { %>
+                    
+            <td><%= postslist.id_user %></td>
+            <td><%= postslist.post %></td>
+            <td><%= postslist.create_at %></td>
+            <% }); %>
+            
         </tr>
     </tbody>
 </table>
