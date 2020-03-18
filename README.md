@@ -8,3 +8,4 @@ Pequeño proyecto Blog personal con alta de articulos- Post desarrollado en Node
 - [Node 10+](https://nodejs.org/en/)
 - [Express](https://expressjs.com/es/)
 - [Mysql](https://www.apachefriends.org/es/index.html)
+- [Summernote Editor](https://summernote.org/)
